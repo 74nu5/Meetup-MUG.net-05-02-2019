@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "DemoConfiguration"
+		},
+		{
+			"path": "DemoHosting"
+		}
+	],
+	"settings": {}
+}
