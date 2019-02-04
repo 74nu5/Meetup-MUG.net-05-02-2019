@@ -1,0 +1,14 @@
+{
+    "author": "Romain Avonde",
+    "classifications": [
+        "Console"
+    ],
+    "name": "Demo meetup hosting",
+    "identity": "avondero.meetup.hosting",
+    "shortName": "meet-hosting",
+    "tags": {
+        "language": "C#"
+    },
+    "sourceName": "DemoHosting",
+    "preferNameDirectory": "true"
+}
