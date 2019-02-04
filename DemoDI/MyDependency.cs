@@ -1,13 +1,27 @@
-using System;
-using System.Threading.Tasks;
-
 namespace DemoDI
 {
+    #region Usings
+
+    using System;
+    using System.Threading.Tasks;
+
+    #endregion
+
     public class MyDependency
     {
+        #region Champs et constantes statiques
 
-        private static Random rand = new Random();
+        private static readonly Random rand = new Random();
+
+        #endregion
+
+        #region Champs
+
         private readonly MyDependency2 dependency2;
+
+        #endregion
+
+        #region Constructeurs et destructeurs
 
         public MyDependency(MyDependency2 dependency2)
         {
@@ -16,7 +30,15 @@ namespace DemoDI
             this.dependency2 = dependency2;
         }
 
+        #endregion
+
+        #region Propriétés et indexeurs
+
         public int Value { get; }
+
+        #endregion
+
+        #region Méthodes publiques
 
         public Task WriteMessage(string message)
         {
@@ -27,5 +49,7 @@ namespace DemoDI
 
             return Task.CompletedTask;
         }
+
+        #endregion
     }
 }
