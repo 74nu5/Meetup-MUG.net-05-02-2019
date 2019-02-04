@@ -1,0 +1,14 @@
+{
+    "author": "Romain Avonde",
+    "classifications": [
+        "Console"
+    ],
+    "name": "Demo meetup DI",
+    "identity": "avondero.meetup.di",
+    "shortName": "meet-di",
+    "tags": {
+        "language": "C#"
+    },
+    "sourceName": "DemoDI",
+    "preferNameDirectory": "true"
+}

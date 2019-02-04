@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "DemoHosting"
+		},
+		{
+			"path": "DemoDI"
 		}
 	],
 	"settings": {}
